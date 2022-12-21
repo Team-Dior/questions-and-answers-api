@@ -30,7 +30,7 @@ async function main() {
     const Answer = mongoose.model('Answer', answerSchema);
     const Photo = mongoose.model('Photo', photoSchema);
 
-    module.exports = Question;
+    module.exports = { Question, Answer, Photo };
   } catch (err) {
     console.log('error: ' + err);
   }
