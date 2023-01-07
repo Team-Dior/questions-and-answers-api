@@ -3,8 +3,11 @@
     "server-dev": "npx nodemon --watch server server/index.js"
   },
   "dependencies": {
+    "autocannon": "^7.10.0",
     "bluebird": "^3.7.2",
     "cors": "^2.8.5",
+    "csv-parse": "^5.3.3",
+    "csv-parser": "^3.0.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "fs": "^0.0.1-security",
@@ -14,6 +17,7 @@
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pg": "^8.8.0"
   }
 }
